@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:gravity="center_horizontal"
+    android:orientation="vertical"
     tools:context="com.stick.demoapplication.MainActivity">
 
     <Button
@@ -31,4 +31,29 @@
         android:text="NavigationDrawerActivity"
         android:textAllCaps="false" />
 
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        android:thumb="@drawable/switch_thumb"
+        android:track="@drawable/switch_track" />
+
+
+    <Button
+        android:id="@+id/btn_ToTabLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="main_btnClick"
+        android:text="TabLayout"
+        android:textAllCaps="false" />
+
+
+    <Button
+        android:id="@+id/btn_blueTooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="main_btnClick"
+        android:text="蓝牙"
+        android:textAllCaps="false" />
 </LinearLayout>

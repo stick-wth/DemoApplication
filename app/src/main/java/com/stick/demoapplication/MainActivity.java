@@ -24,6 +24,13 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btn_ToNDAct:
                 startActivity(new Intent(this,NavigationDrawerActivity.class));
                 break;
+            case R.id.btn_ToTabLayout:
+                startActivity(new Intent(this,TabLayoutActivity.class));
+                break;
+            case R.id.btn_blueTooth:
+                startActivity(new Intent(this,BlueToothActivity.class));
+                break;
+
         }
     }
 }
